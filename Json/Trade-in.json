@@ -1,0 +1,20 @@
+[
+    {
+        "Car": "Private",
+        "Model": "Toyata-Corolla",
+        "Year": "2018",
+        "Hybrid": false,
+        "adjusted": 5,
+        "Price-list": 120000,
+        "photo": "https://paultan.org/image/2020/07/Toyota-Corolla-Sedan-GR-Sport-Europe-1-e1595395684614.jpg"
+    },
+    {
+        "Car": "Private",
+        "Model": "Audi-A3 Cabriolet",
+        "Year": "2019",
+        "Hybrid": true,
+        "adjusted": 4,
+        "Price-list": 170000,
+        "photo": "https://www.ynet.co.il/PicServer4/2015/03/11/5929401/592934601000100490327no.jpg"
+    }
+]
