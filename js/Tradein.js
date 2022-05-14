@@ -27,7 +27,8 @@ trade1.addEventListener("submit", sub);
 function sub(e) {
     e.preventDefault();
 
-    let carlist1 = document.querySelector('[name=Car]').value;
+
+    let carlist = document.querySelector('[name=Car]').value;
 
 
     let divis = "";
@@ -35,7 +36,7 @@ function sub(e) {
 
     if (e != undefined) {
         arrnew = Trade.filter((trade) => {
-            return trade.carlist1
+            return trade.carlist
         });
 
         for (let i = 0; i < arrnew.length; i++) {
@@ -56,7 +57,5 @@ function sub(e) {
         let ttrade_div = document.querySelector('.cars-trade');
 
         ttrade_div.innerHTML = divis;
-
-         document.querySelector('[name=list]').value = "";
 }
 }

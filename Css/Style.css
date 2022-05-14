@@ -162,3 +162,78 @@
     font-weight: bold;
 }
 
+/* Test car */
+
+.test-main {
+    text-align: center;
+}
+
+.test-main .labal1, .labal2 {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: lightgreen;
+    line-height: 45px;
+}
+
+.test-main .labal2 {
+    margin-left: -34px;
+}
+
+.test-main #btn-next {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.test-main #Test, #Testm {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+/* Netxt */
+
+.test-main-next {
+    text-align: center;
+}
+#form-test, #btn {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.test-main-next #form-test input[type="text"], input[type="number"], input[type="date"], input[type="email"] {
+    margin-left: 14px;
+    padding: 28px;
+    border: none;
+    border-bottom: 2px solid rgb(165, 21, 21);
+}
+
+.test-main-next #form-test #BMW {
+    margin-left: 43px;
+}
+
+.test-main-next #form-test #HYUNDAI {
+    margin-left: 21px;
+}
+.test-main-next #form-test #firstname {
+    margin-left: 30px;
+}
+.test-main-next #form-test #lastname {
+    margin-left: 43px;
+}
+.test-main-next #form-test #Pnumbrt {
+    margin-left: 8px;
+}
+.test-main-next #form-test #idnumer {
+    margin-left: 45px;
+}
+.test-main-next #form-test #email {
+    margin-left: 89px;
+}
+.test-main-next #form-test #date {
+    margin-left: 45px;
+}
+

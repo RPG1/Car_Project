@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scar-Test-drive</title>
+    <link rel="icon" href="../Web_Icon/images.jpg">
+    <link rel="stylesheet" href="../Css/Style.css">
+    <script src="https://kit.fontawesome.com/08f3bd2d39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="Logo-main">
+            <div class="btns">
+                <ul>
+                    <li id="a"><a href="../index.html">Cars</a></li>
+                </ul>
+            </div>
+            <p class="Name">Scar Like Buy New Car</p>
+            <img class="logo" src="../Web_Logo/images.jpg" alt="Logo">
+        </div>
+
+
+        <div class="test-main-next">
+            <form action="https://formspree.io/f/mnqwlbwp" method="post" id="form-test">
+                <label for="BMW">CarName:</label>
+                <input type="text" name="CarName" id="BMW">
+                <br>
+                <label for="modle">ModleName:</label>
+                <input type="text" name="Modle" id="HYUNDAI">
+                <br>
+                <label for="Name">First-Name:</label>
+                <input type="text" name="Firstname" id="firstname">
+                <br>
+                <label for="last-Name">last-Name:</label>
+                <input type="text" name="Lastname" id="lastname">
+                <br>
+                <label for="pnumbrt">Phone-number:</label>
+                <input type="number" name="Phonenumber" id="Pnumbrt">
+                <br>
+                <label for="idnumbrt">id-number:</label>
+                <input type="number" name="Idnumber" id="idnumer">
+                <br>
+                <label for="email">email:</label>
+                <input type="email" name="Email" id="email">
+                <br>
+                <label for="date">Set-a-date:</label>
+                <input type="date" name="Date" id="date">
+                <br>
+                <br>
+                <button id="btn" onclick="send()">Send</button>
+            </form>
+        </div>
+
+    </header>
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('jcOsFmfwWWSRoMR-2')
+</script>
+
+    <script src="../js/next.js"></script>
+
+</body>
+</html>
